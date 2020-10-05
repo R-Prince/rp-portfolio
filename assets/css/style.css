@@ -5,7 +5,7 @@
 
 .navbar-brand{
     font-family: 'Oswald', sans-serif;    
-    font-size: 30px;
+    font-size: 25px;
     letter-spacing: 3px;
     text-transform: uppercase;
     color: #BF1736;
@@ -30,4 +30,23 @@
 .menu{
     color: #a9a9a9;
     font-size: 30px;
+}
+
+/*Section: Hero */
+.hero-section{
+  height: 90vh;
+  display: flex;
+  align-items: center;
+}
+
+
+.hero-header{
+    font-family: 'Oswald', sans-serif;
+    color: #a9a9a9;
+    font-size: 10vh;
+}
+
+.header-name{
+    font-family: 'Oswald', sans-serif;
+    color: #BF1736;
 }
