@@ -1,0 +1,33 @@
+/*Section: Website Font */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Oswald:wght@300&family=Roboto&family=Sansita+Swashed&display=swap');
+
+/*Section: Navbar */
+
+.navbar-brand{
+    font-family: 'Oswald', sans-serif;    
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #BF1736;
+}
+
+.nav-link{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #a9a9a9;
+}
+
+.nav-link:hover{
+    color: #BF1736;
+}
+
+.navbar-brand:hover{
+    color: #a9a9a9;
+}
+
+.menu{
+    color: #a9a9a9;
+    font-size: 30px;
+}
