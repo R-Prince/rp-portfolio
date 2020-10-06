@@ -16,11 +16,11 @@
     font-size: 3vh;
     letter-spacing: 3px;
     text-transform: uppercase;
-    color: #a9a9a9;
+    color: #BF1736;
 }
 
 .nav-link:hover{
-    color: #BF1736;
+    color: #a9a9a9;
 }
 
 .navbar-brand:hover{
@@ -68,36 +68,48 @@
     font-family: 'Oswald', sans-serif;
     letter-spacing: 7px;
     text-transform: uppercase;
-    margin: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 3.5rem;
     color: #BF1736;
     font-size: 7vh;
 }
 
-.card-title{
+.project-container{
     font-family: 'Oswald', sans-serif;
-    letter-spacing: 2px;
-    margin-bottom: 1rem;
-    font-size: 5vh;
 }
 
-.card-text{
-    font-family: 'Roboto', sans-serif;
-    margin-bottom: 0.5rem;
-    font-size: 3vh;
-}
-
-.card-tech{
-    font-family: 'Roboto', sans-serif;
-    margin-bottom: 0.5rem;
-    font-size: 3vh;
-}
-
-.social-links{
-    font-family: 'Roboto', sans-serif;
-    margin-bottom: 1rem;
+.project-title{
     color: #a9a9a9;
+    font-size: 5.5vh;
 }
 
-.card{
-    margin: 2rem;
+.btn-cta{
+    background-color: #BF1736;
+    border: 1px solid #BF1736;
+    font-size: 3.5vh;
+    margin-bottom: 1.5rem;
+}
+
+.btn-cta-transparent{
+    border: 2px solid #BF1736;
+    background-color: transparent;
+    font-size: 3.5vh;
+    color: #BF1736;
+    margin-bottom: 1.5rem;
+}
+
+.project-brief{
+    font-size: 3.5vh;
+    margin-bottom: 1rem;
+}
+
+.project-tech{
+    font-size: 3.5vh;
+    margin-bottom: 1rem;
+}
+
+.pro-img{
+    height: 50vh;
+    width: 50vw;
+    box-shadow: 2px 2px #a9a9a9;
 }
